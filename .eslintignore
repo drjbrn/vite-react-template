@@ -3,5 +3,3 @@ dist/
 .prettierrc
 .eslintrc
 env.d.ts
-postcss.config.js
-tailwind.config.js
