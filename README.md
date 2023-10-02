@@ -1,4 +1,4 @@
-# Vite template: React + TypeScript + Tailwind CSS + Eslint + Prettier
+# Vite template: React + TypeScript + Eslint + Prettier
 
 ### How to use
  - `git clone https://github.com/drjbrn/vite-react-template.git`
