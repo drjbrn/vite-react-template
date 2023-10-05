@@ -28,6 +28,11 @@
     "project": "./tsconfig.json"
   },
   "plugins": ["import", "prettier", "react", "react-hooks", "@typescript-eslint"],
+  "settings": {
+    "import/resolver": {
+      "typescript": {}
+    }
+  },
   "rules" : {
     "import/no-unresolved" : "error",
     "react-hooks/rules-of-hooks": "error",
