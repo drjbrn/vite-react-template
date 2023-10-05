@@ -31,9 +31,10 @@
   "rules" : {
     "import/no-unresolved" : "error",
     "react-hooks/rules-of-hooks": "error",
-    "@typescript-eslint/no-explicit-any": 2,
+    "@typescript-eslint/no-explicit-any": "error",
     "import/prefer-default-export": "off",
     "react/function-component-definition": "off",
+    "react/react-in-jsx-scope": "off",
     "max-len": [
       "error",
       {
@@ -47,7 +48,12 @@
         "parser": "flow"
       }
     ],
-    "react/react-in-jsx-scope": 0
+    "import/no-extraneous-dependencies": [
+      "error",
+      {
+        "devDependencies": true
+      }
+    ]
   }
 }
 
